@@ -1,4 +1,4 @@
-16735845124629225
+16745306720928404
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -52331,6 +52331,27 @@ Yellow 5381 Series LED
 0
 2
 2
+MASA_Library
+472192001
+47219-2001
+Connector
+0
+12
+12
+MASA_Library
+MP5077GG-Z
+
+
+0
+12
+12
+MASA_Library
+Stack_Connector_2019_2020
+TFC-120-32-F-D-A-K-TR-1
+Connector
+0
+40
+40
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -68516,6 +68537,13 @@ Accelerometer
 12
 12
 SamacSys_Parts
+472192001
+47219-2001
+Connector
+0
+12
+12
+SamacSys_Parts
 BK-335-SM-TR
 
 
@@ -68557,6 +68585,13 @@ Connector
 0
 24
 24
+SamacSys_Parts
+NE555DR
+D (R-PDSO-G8)
+Integrated Circuit
+0
+8
+8
 SamacSys_Parts
 QFN50P300X300X90-17N-D
 (MG) 16-Pin QFN
@@ -68627,6 +68662,13 @@ Connector
 0
 2
 2
+SamacSys_Parts
+TFC12032FDAKTR
+TFC-120-32-F-D-A-K-TR-1
+Connector
+0
+40
+40
 SamacSys_Parts
 TO229P990X238-4N
 DPAK (SINGLE GAUGE) CASE369C
