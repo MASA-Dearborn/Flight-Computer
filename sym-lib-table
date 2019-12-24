@@ -149,4 +149,5 @@
   (lib (name dk_TVS-Diodes)(type Legacy)(uri ${KIPRJMOD}/Library/digikey-symbols/dk_TVS-Diodes.lib)(options "")(descr ""))
   (lib (name dk_TVS-Mixed-Technology)(type Legacy)(uri ${KIPRJMOD}/Library/digikey-symbols/dk_TVS-Mixed-Technology.lib)(options "")(descr ""))
   (lib (name dk_USB-DVI-HDMI-Connectors)(type Legacy)(uri ${KIPRJMOD}/Library/digikey-symbols/dk_USB-DVI-HDMI-Connectors.lib)(options "")(descr ""))
+  (lib (name Flight_Computer-rescue)(type Legacy)(uri ${KIPRJMOD}/Flight_Computer-rescue.lib)(options "")(descr ""))
 )

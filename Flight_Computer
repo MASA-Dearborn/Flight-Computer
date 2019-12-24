@@ -1,0 +1,103 @@
+Source,C:\Users\Lucas\Documents\KiCAD\MASA\Flight_Computer\Flight_Computer.sch
+Kicad Rev,Eeschema (5.1.2)-2
+Generated Date,12/24/2019 1:34:07 PM
+
+Title,Not Set
+Company,Not Set
+Revision,Not Set
+Date Issue,Not Set
+
+Reference,Value,Description,Height,Manufacturer_Name,Manufacturer_Part_Number,Mouser Part Number,Mouser Price/Stock,PART#,Category,DK_Datasheet_Link,DK_Detail_Page,Digi-Key_PN,Family,MPN,Manufacturer,Status,Library,Library Ref
+IC1,PIC32MZ2048EFH144-I_PL,MICROCHIP - PIC32MZ2048EFH144-I/PL - MCU, 32BIT, PIC32, 200MHZ, LQFP-144,1.6,Microchip,PIC32MZ2048EFH144-I/PL,579-MZ2048EFH144IPL,https://www.mouser.com/Search/Refine.aspx?Keyword=579-MZ2048EFH144IPL,,,,,,,,,,SamacSys_Parts,PIC32MZ2048EFH144-I_PL
+C16,100n,Device,C_Small
+C17,100n,Device,C_Small
+C15,100n,Device,C_Small
+C13,100n,Device,C_Small
+C4,100n,Device,C_Small
+C3,100n,Device,C_Small
+C8,100n,Device,C_Small
+C14,100n,Device,C_Small
+J3,ICSP Programming,Connector_Generic,Conn_01x05
+C1,100n,Device,C_Small
+R8,1k,Device,R_Small_US
+R7,10k,Device,R_Small_US
+C2,100n,Device,C_Small
+R1,100,Device,R_Small_US
+R2,100,Device,R_Small_US
+C5,1n,Device,C
+C9,22u,Device,C
+D1,>8V,Device,D_TVS
+C11,100u,Device,CP
+C7,100n,Device,C_Small
+L1,3.3u,,,,,,,74438324033,,,,,,,,,Device,L
+C6,1n,Device,C
+C10,22u,Device,C
+D2,>8V,Device,D_TVS
+C12,100u,Device,CP
+L2,3.3u,Device,L
+U2,STMPS2141STR,IC PWR SWITCH 1CH 500MA SOT23-5,,,,,,,Integrated Circuits (ICs),http://www.st.com/content/ccc/resource/technical/document/datasheet/e8/d7/48/25/eb/87/45/b3/CD00167470.pdf/files/CD00167470.pdf/jcr:content/translations/en.CD00167470.pdf,/product-detail/en/stmicroelectronics/STMPS2141STR/497-6933-1-ND/1880311,497-6933-1-ND,PMIC - Power Distribution Switches, Load Drivers,STMPS2141STR,STMicroelectronics,Active,dk_PMIC-Power-Distribution-Switches-Load-Drivers,STMPS2141STR
+U1,STMPS2141STR,IC PWR SWITCH 1CH 500MA SOT23-5,,,,,,,Integrated Circuits (ICs),http://www.st.com/content/ccc/resource/technical/document/datasheet/e8/d7/48/25/eb/87/45/b3/CD00167470.pdf/files/CD00167470.pdf/jcr:content/translations/en.CD00167470.pdf,/product-detail/en/stmicroelectronics/STMPS2141STR/497-6933-1-ND/1880311,497-6933-1-ND,PMIC - Power Distribution Switches, Load Drivers,STMPS2141STR,STMicroelectronics,Active,dk_PMIC-Power-Distribution-Switches-Load-Drivers,STMPS2141STR
+R5,10k,Device,R_Small_US
+R6,10k,Device,R_Small_US
+R3,NP,Device,R_Small_US
+R4,NP,Device,R_Small_US
+R9,470m,Device,R_Small_US
+R10,470m,Device,R_Small_US
+C19,1n,Device,C_Small
+C18,100n,Device,C_Small
+U3,BNO055,IMU ACCEL/GYRO/MAG I2C 28LGA,,,,,,,Sensors, Transducers,https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BNO055-DS000.pdf,/product-detail/en/bosch-sensortec/BNO055/828-1058-1-ND/6136309,828-1058-1-ND,Motion Sensors - IMUs (Inertial Measurement Units),BNO055,Bosch Sensortec,Active,dk_Motion-Sensors-IMUs-Inertial-Measurement-Units,BNO055
+C20,100n,Device,C_Small
+R11,10k,Device,R_Small_US
+R12,10k,Device,R_Small_US
+J2,UJ2-MBH-1-SMT-TR,CONN RCPT USB2.0 MINI B SMD R/A,,,,,,,Connectors, Interconnects,https://www.cui.com/product/resource/digikeypdf/uj2-mbh-smt.pdf,/product-detail/en/cui-inc/UJ2-MBH-1-SMT-TR/102-4003-1-ND/6187925,102-4003-1-ND,USB, DVI, HDMI Connectors,UJ2-MBH-1-SMT-TR,CUI Inc.,Active,dk_USB-DVI-HDMI-Connectors,UJ2-MBH-1-SMT-TR
+J1,SC_19-20,Conn Shrouded Header HDR 40 POS 1.27mm Solder ST SMD T/R,11.35,SAMTEC,TFC-120-32-F-D-A-K-TR,,,,,,,,,,,,MASA_Library,SC_19-20
+U4,SN65HVD1050D,Interface_CAN_LIN,SN65HVD1050D
+R13,0,Device,R_Small_US
+R14,0,Device,R_Small_US
+R15,10k,Device,R_Small_US
+C21,100p,Device,C_Small
+R16,0,Device,R_Small_US
+R18,60,Device,R_Small_US
+C26,100n,Device,C_Small
+D3,D_TVS_x2_AAC,Device,D_TVS_x2_AAC
+C25,100p,Device,C_Small
+C24,100p,Device,C_Small
+R17,60,Device,R_Small_US
+J4,47219-2001,Molex 47219 Series 8 Way Horizontal Hinged Micro SD Memory Card Connector with Solder Termination,,Molex,47219-2001,538-47219-2001,https://www.mouser.com/Search/Refine.aspx?Keyword=538-47219-2001,,,,,,,,,,MASA_Library,47219-2001
+C41,100n,Device,C_Small
+C42,1n,Device,C_Small
+U5,TXB0104PWR,IC TRNSLTR BIDIRECTIONAL 14TSSOP,,,,,,,Integrated Circuits (ICs),http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftxb0104,/product-detail/en/texas-instruments/TXB0104PWR/296-21929-1-ND/1629282,296-21929-1-ND,Logic - Translators, Level Shifters,TXB0104PWR,Texas Instruments,Active,dk_Logic-Translators-Level-Shifters,TXB0104PWR
+C43,1n,Device,C_Small
+C40,1n,Device,C_Small
+R21,10k,Device,R_Small_US
+C37,1n,Device,C_Small
+TP9,T,Connector,TestPoint
+TP10,T,Connector,TestPoint
+TP7,T,Connector,TestPoint
+TP8,T,Connector,TestPoint
+TP5,T,Connector,TestPoint
+TP6,T,Connector,TestPoint
+TP4,T,Connector,TestPoint
+TP3,T,Connector,TestPoint
+TP2,T,Connector,TestPoint
+TP1,T,Connector,TestPoint
+TMP2,LM50CIM3X,MASA_Library,LM50CIM3X
+C39,100n,Device,C_Small
+C38,1n,Device,C_Small
+C28,100n,Device,C_Small
+C27,1n,Device,C_Small
+TMP1,LM50CIM3X,MASA_Library,LM50CIM3X
+C22,1n,Device,C_Small
+C23,100n,Device,C_Small
+C30,100n,Device,C_Small
+C32,1n,Device,C_Small
+L4,2.2u,Device,L
+C36,2.2u,Device,C_Small
+R20,3.3,Device,R_Small_US
+C34,100n,Device,C_Small
+C29,100n,Device,C_Small
+C31,1n,Device,C_Small
+L3,2.2u,Device,L
+C35,2.2u,Device,C_Small
+R19,3.3,Device,R_Small_US
+C33,100n,Device,C_Small
