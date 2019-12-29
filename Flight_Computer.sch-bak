@@ -3960,6 +3960,6 @@ F 3 "" H 1300 1150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Connection ~ 1300 1150
-Text GLabel 24650 20300 2    50   Input ~ 0
+Text GLabel 25200 20400 0    50   Input ~ 0
 SD_MISO
 $EndSCHEMATC
