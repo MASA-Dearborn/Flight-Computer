@@ -1712,7 +1712,7 @@ Text GLabel 6600 7300 2    50   Input ~ 0
 CAN_H
 Text GLabel 6600 8200 2    50   Input ~ 0
 CAN_L
-Text GLabel 2400 7000 0    50   Input ~ 0
+Text GLabel 2250 7000 0    50   Input ~ 0
 CAN_TX
 $Comp
 L Device:R_Small_US R19
@@ -1894,12 +1894,12 @@ Wire Wire Line
 $Comp
 L Connector:TestPoint TP7
 U 1 1 5E17219C
-P 3650 7550
-F 0 "TP7" H 3708 7668 50  0000 L CNN
-F 1 "T" H 3708 7577 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 3850 7550 50  0001 C CNN
-F 3 "~" H 3850 7550 50  0001 C CNN
-	1    3650 7550
+P 2300 7000
+F 0 "TP7" H 2358 7118 50  0000 L CNN
+F 1 "T" H 2358 7027 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 2500 7000 50  0001 C CNN
+F 3 "~" H 2500 7000 50  0001 C CNN
+	1    2300 7000
 	1    0    0    -1  
 $EndComp
 Connection ~ 3650 7550
@@ -1908,12 +1908,12 @@ Wire Wire Line
 $Comp
 L Connector:TestPoint TP8
 U 1 1 5E1736F9
-P 3650 7650
-F 0 "TP8" H 3600 7700 50  0000 R CNN
-F 1 "T" H 3600 7800 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 3850 7650 50  0001 C CNN
-F 3 "~" H 3850 7650 50  0001 C CNN
-	1    3650 7650
+P 2300 8550
+F 0 "TP8" H 2250 8600 50  0000 R CNN
+F 1 "T" H 2250 8700 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 2500 8550 50  0001 C CNN
+F 3 "~" H 2500 8550 50  0001 C CNN
+	1    2300 8550
 	-1   0    0    1   
 $EndComp
 Connection ~ 3650 7650
@@ -3957,10 +3957,10 @@ Connection ~ 1300 1150
 Text GLabel 25200 20400 0    50   Input ~ 0
 SD_MISO
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0132
 U 1 1 5E140B15
 P 2800 8150
-F 0 "#PWR?" H 2800 8000 50  0001 C CNN
+F 0 "#PWR0132" H 2800 8000 50  0001 C CNN
 F 1 "+5V" H 2850 8300 50  0000 C CNN
 F 2 "" H 2800 8150 50  0001 C CNN
 F 3 "" H 2800 8150 50  0001 C CNN
@@ -3968,10 +3968,10 @@ F 3 "" H 2800 8150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR0133
 U 1 1 5E1412FC
 P 2700 8150
-F 0 "#PWR?" H 2700 8000 50  0001 C CNN
+F 0 "#PWR0133" H 2700 8000 50  0001 C CNN
 F 1 "+3V3" H 2650 8300 50  0000 C CNN
 F 2 "" H 2700 8150 50  0001 C CNN
 F 3 "" H 2700 8150 50  0001 C CNN
@@ -3979,10 +3979,10 @@ F 3 "" H 2700 8150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0134
 U 1 1 5E1460FE
 P 2400 8750
-F 0 "#PWR?" H 2400 8500 50  0001 C CNN
+F 0 "#PWR0134" H 2400 8500 50  0001 C CNN
 F 1 "GND" V 2405 8622 50  0000 R CNN
 F 2 "" H 2400 8750 50  0001 C CNN
 F 3 "" H 2400 8750 50  0001 C CNN
@@ -3990,10 +3990,10 @@ F 3 "" H 2400 8750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0135
 U 1 1 5E1B39DA
 P 2800 6600
-F 0 "#PWR?" H 2800 6450 50  0001 C CNN
+F 0 "#PWR0135" H 2800 6450 50  0001 C CNN
 F 1 "+5V" H 2850 6750 50  0000 C CNN
 F 2 "" H 2800 6600 50  0001 C CNN
 F 3 "" H 2800 6600 50  0001 C CNN
@@ -4001,10 +4001,10 @@ F 3 "" H 2800 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR0136
 U 1 1 5E1B39E0
 P 2700 6600
-F 0 "#PWR?" H 2700 6450 50  0001 C CNN
+F 0 "#PWR0136" H 2700 6450 50  0001 C CNN
 F 1 "+3V3" H 2650 6750 50  0000 C CNN
 F 2 "" H 2700 6600 50  0001 C CNN
 F 3 "" H 2700 6600 50  0001 C CNN
@@ -4012,10 +4012,10 @@ F 3 "" H 2700 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0137
 U 1 1 5E1B39E6
 P 2800 7400
-F 0 "#PWR?" H 2800 7150 50  0001 C CNN
+F 0 "#PWR0137" H 2800 7150 50  0001 C CNN
 F 1 "GND" V 2805 7272 50  0000 R CNN
 F 2 "" H 2800 7400 50  0001 C CNN
 F 3 "" H 2800 7400 50  0001 C CNN
@@ -4023,10 +4023,10 @@ F 3 "" H 2800 7400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0138
 U 1 1 5E1441FD
 P 2800 8950
-F 0 "#PWR?" H 2800 8700 50  0001 C CNN
+F 0 "#PWR0138" H 2800 8700 50  0001 C CNN
 F 1 "GND" V 2805 8822 50  0000 R CNN
 F 2 "" H 2800 8950 50  0001 C CNN
 F 3 "" H 2800 8950 50  0001 C CNN
@@ -4034,10 +4034,10 @@ F 3 "" H 2800 8950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dk_Logic-Translators-Level-Shifters:SN74LVC1T45DBVR U?
+L dk_Logic-Translators-Level-Shifters:SN74LVC1T45DBVR U6
 U 1 1 5E0E99E2
 P 2700 8550
-F 0 "U?" H 2350 9400 60  0000 L CNN
+F 0 "U6" H 2350 9400 60  0000 L CNN
 F 1 "SN74LVC1T45DBVR" H 2350 9250 60  0000 L CNN
 F 2 "digikey-footprints:SOT-23-6" H 2900 8750 60  0001 L CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1t45" H 2900 8850 60  0001 L CNN
@@ -4053,13 +4053,13 @@ F 12 "Active" H 2900 9750 60  0001 L CNN "Status"
 	1    2700 8550
 	1    0    0    -1  
 $EndComp
-Text GLabel 2400 8550 0    50   Input ~ 0
+Text GLabel 2200 8550 0    50   Input ~ 0
 CAN_RX
 $Comp
-L dk_Logic-Translators-Level-Shifters:SN74LVC1T45DBVR U?
+L dk_Logic-Translators-Level-Shifters:SN74LVC1T45DBVR U5
 U 1 1 5E1B39D4
 P 2700 7000
-F 0 "U?" H 2350 7850 60  0000 L CNN
+F 0 "U5" H 2350 7850 60  0000 L CNN
 F 1 "SN74LVC1T45DBVR" H 2350 7700 60  0000 L CNN
 F 2 "digikey-footprints:SOT-23-6" H 2900 7200 60  0001 L CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1t45" H 2900 7300 60  0001 L CNN
@@ -4076,10 +4076,10 @@ F 12 "Active" H 2900 8200 60  0001 L CNN "Status"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR0139
 U 1 1 5E23C99B
 P 2400 7200
-F 0 "#PWR?" H 2400 7050 50  0001 C CNN
+F 0 "#PWR0139" H 2400 7050 50  0001 C CNN
 F 1 "+3V3" H 2350 7350 50  0000 C CNN
 F 2 "" H 2400 7200 50  0001 C CNN
 F 3 "" H 2400 7200 50  0001 C CNN
@@ -4098,4 +4098,14 @@ Wire Wire Line
 	3400 8550 3400 7650
 Wire Wire Line
 	3400 7650 3650 7650
+Wire Wire Line
+	2250 7000 2300 7000
+Wire Wire Line
+	2200 8550 2300 8550
+Connection ~ 2300 8550
+Wire Wire Line
+	2300 8550 2400 8550
+Connection ~ 2300 7000
+Wire Wire Line
+	2300 7000 2400 7000
 $EndSCHEMATC

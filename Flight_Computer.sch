@@ -1902,9 +1902,6 @@ F 3 "~" H 2500 7000 50  0001 C CNN
 	1    2300 7000
 	1    0    0    -1  
 $EndComp
-Connection ~ 3650 7550
-Wire Wire Line
-	3650 7550 3850 7550
 $Comp
 L Connector:TestPoint TP8
 U 1 1 5E1736F9
@@ -1916,9 +1913,6 @@ F 3 "~" H 2500 8550 50  0001 C CNN
 	1    2300 8550
 	-1   0    0    1   
 $EndComp
-Connection ~ 3650 7650
-Wire Wire Line
-	3650 7650 3850 7650
 $Comp
 L Connector:TestPoint TP5
 U 1 1 5E17652F
@@ -4091,13 +4085,9 @@ Wire Wire Line
 Wire Wire Line
 	3400 7000 3400 7550
 Wire Wire Line
-	3400 7550 3650 7550
-Wire Wire Line
 	3000 8550 3400 8550
 Wire Wire Line
 	3400 8550 3400 7650
-Wire Wire Line
-	3400 7650 3650 7650
 Wire Wire Line
 	2250 7000 2300 7000
 Wire Wire Line
@@ -4108,4 +4098,10 @@ Wire Wire Line
 Connection ~ 2300 7000
 Wire Wire Line
 	2300 7000 2400 7000
+Wire Wire Line
+	3400 7550 3850 7550
+Wire Wire Line
+	3400 7650 3850 7650
+Text GLabel 7650 12850 1    50   Input ~ 0
+SD_CS
 $EndSCHEMATC
