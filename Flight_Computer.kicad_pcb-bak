@@ -557,16 +557,16 @@
     (add_net USB_VBUS)
   )
 
-  (module MASA_Library:472192001 (layer F.Cu) (tedit 5DFEE8B9) (tstamp 5DFF9420)
+  (module MASA_Library:472192001 (layer F.Cu) (tedit 5E2B65D0) (tstamp 5DFF9420)
     (at 122.1994 126.6863 270)
     (descr 47219-2001)
     (tags Connector)
     (path /5E0516E9)
     (attr smd)
-    (fp_text reference J4 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference J4 (at 0 0 270) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.254)))
     )
-    (fp_text value 47219-2001 (at 0 0 90) (layer F.SilkS) hide
+    (fp_text value 47219-2001 (at 0 0 270) (layer F.SilkS) hide
       (effects (font (size 1.27 1.27) (thickness 0.254)))
     )
     (fp_arc (start 3.3 7.45) (end 3.4 7.45) (angle 180) (layer F.SilkS) (width 0.2))
@@ -591,7 +591,7 @@
     (fp_line (start 6.8 6.95) (end -6.8 6.95) (layer F.Fab) (width 0.2))
     (fp_line (start 6.8 -7.55) (end 6.8 6.95) (layer F.Fab) (width 0.2))
     (fp_line (start -6.8 -7.55) (end 6.8 -7.55) (layer F.Fab) (width 0.2))
-    (fp_text user %R (at 0 0 90) (layer F.Fab)
+    (fp_text user %R (at 0 0 270) (layer F.Fab)
       (effects (font (size 1.27 1.27) (thickness 0.254)))
     )
     (pad 12 smd rect (at 6.875 4.4 270) (size 1.45 2) (layers F.Cu F.Paste F.Mask)
@@ -619,7 +619,7 @@
     (pad 1 smd rect (at 3.205 1.8 270) (size 0.8 1.5) (layers F.Cu F.Paste F.Mask)
       (net 136 "Net-(J4-Pad1)"))
     (model C:\SamacSys_PCB_Library\KiCad\SamacSys_Parts.3dshapes\47219-2001.stp
-      (at (xyz 0 0 0))
+      (offset (xyz 0 1 1))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
